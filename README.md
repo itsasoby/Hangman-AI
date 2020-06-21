@@ -1,7 +1,7 @@
 # Hangman AI
 
 ## About
-The creation of this AI is solely for my C++ skills practicing. This AI includes very basic machine learning, which is implemented via memorizing letters that appear the most in the given words and ranking them, only to use them based on the frequency of their appearings.
+The creation of this AI is solely for my C++ skills practicing. This AI includes a very basic implementation machine learning, which is done via memorizing letters that appear the most in the given words and ranking them, only to use them based on the frequency of their appearings.
 
 ## How it works
 #### Classes
