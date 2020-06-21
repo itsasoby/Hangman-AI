@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
-
+#include "Hangman.hpp"
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Hangman HangmanInstance("word");
+    HangmanInstance.GuessLetter('o');
+    HangmanInstance.PrintCurrent();
+    HangmanInstance.GuessLetter('d');
+    HangmanInstance.PrintCurrent();
+    HangmanInstance.GuessLetter('p');
+    HangmanInstance.PrintCurrent();
     return 0;
 }
